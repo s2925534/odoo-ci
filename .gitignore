@@ -1,0 +1,38 @@
+# Odoo-specific
+*.db
+*.dump
+*.pyc
+*.pyo
+*.po
+*.mo
+
+# IDE/Editor-specific
+.vscode/
+.idea/
+
+# Temporary files
+/tmp/
+/var/
+
+# Virtual environments
+venv/
+env/
+
+# Configuration files with sensitive data
+odoo.conf
+custom_addons/settings.ini
+
+# Static assets and media files
+static/*
+media/*
+
+# Secrets
+secrets.yml
+secrets.json
+
+# Logs
+*.log
+
+# Backups
+*~
+*.bak
